@@ -1,0 +1,23 @@
+#debugger {
+	display: flex;
+	justify-content: center;
+}
+
+.carousel {
+	position: relative;
+	background-color: #fff9c6;
+
+	/* overflow: hidden; */
+
+	width: 60%;
+	height: 400px;
+}
+
+.carousel > img {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+
+
+	transition: left 5.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
